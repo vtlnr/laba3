@@ -2,6 +2,8 @@
 session_start();
 $background_color = isset($_COOKIE['background_color']) ? $_COOKIE['background_color'] : 'white';
 $font_color = isset($_COOKIE['font_color']) ? $_COOKIE['font_color'] : 'black';
+require 'vendor/autoload.php'; // Подключаем автозагрузчик Composer
+
 ?>
 
 <!DOCTYPE html>
