@@ -1,0 +1,12 @@
+{
+    "name": "laba3/vtorova",
+    "type": "project",
+    "description": "LabWork",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "App\\": "src/"
+      }
+    }
+  }
+  
